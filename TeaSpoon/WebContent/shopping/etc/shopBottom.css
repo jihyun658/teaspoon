@@ -1,0 +1,20 @@
+   footer { width: 100%;}
+   footer ul { list-style: none;}
+   footer a { text-decoration: none; color:#333;}
+   .bottom1{height: 40px; border-top: 1px solid lightgray; border-bottom: 1px solid lightgray; text-align: left}
+   .bottom1 ul{width: 1200px; margin: 10px auto;}
+   .bottom1 ul li{
+       display: inline-block; 
+       border-right: 1px solid gray; 
+       padding-right: 10px; padding-left: 10px;
+       font-size: 0.8em;
+       line-height: 10px;
+   }
+   .bottom1 ul li a{ color: gray;}
+   .bottom1 ul li:last-child{border: none}
+   .bottom2{text-align: center;}
+   .bottom2 div{display: inline-block; vertical-align:top; font-size: 0.8em; padding: 30px; line-height: 25px;}
+   .bottom2 h4{color: #555;}
+   .bottom2 a {color: black;}
+   .b1-4 div{padding: 10px;}
+   .bottom3 {clear: both; height: 30px; background-color: gray; color: white; line-height: 30px; text-align: center; font-size: 0.8em;}

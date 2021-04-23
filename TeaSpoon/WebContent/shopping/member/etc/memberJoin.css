@@ -1,0 +1,70 @@
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+body {
+    font-family: "Nanum Gothic";
+    }
+section {
+    color: #965831;
+    width:430px;
+    padding: 30px;
+    margin:50px auto;
+    border-radius: 15px;
+    overflow: auto;
+    border:1px solid #ddd;
+    }
+hr {size: 1px;}
+.form_title {   
+    font-weight: bold; 
+    margin: 0 15px;
+    text-align: right;
+    }
+table {margin: 20px auto; width: 430px; padding-left: 15px;}
+tr {height: 40px;}
+th { padding-left:20px;
+    line-height: 40px; 
+    text-align:left;
+    font-size: 0.8em; 
+    font-weight: bold;
+}
+td {width: 200px; text-align: left; padding-right: 20px;}
+.submit{text-align: center;}
+
+input[type="button"] {background: white; height: 30px; border: 1px solid #aaa; font-size: 0.7em;
+border-radius:5px; cursor: pointer; color:#333}
+input[type=text], input[type=password]{
+	margin: 5px;
+    border: 1px solid #EDD8BB;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 5px;
+    height: 25px;
+}
+
+input::placeholder { color: #ccc;} 
+input:focus {
+    outline: none;
+    border: 1px solid #E2AA87;
+    box-shadow: 1px 1px 1px #E2AA87;}
+
+input[type="button"]:hover {background-color: #888; color:#fff;}
+#checkPasswd{font-size:0.6em;}
+input[type=submit], input[type=reset] {
+    margin-top: 10px;
+    width: 90px;
+    height: 30px;
+    border: hidden;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    background-color: #EDD8BB;
+    border-radius: 15px;
+    outline: none
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+    color: #E2AA87;
+    background-color: #FEF7E1;
+    border-radius: 19px;
+    border: 2px solid #E2AA87;
+    box-shadow: 1px 1px 1px #E2AA87;
+}

@@ -1,0 +1,85 @@
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+body {
+    font-family: "Nanum Gothic";
+    background :#EDD8BB;
+    }
+.container {
+    color: #965831;
+    position:absolute;
+    text-align:left;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:480px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: auto;
+    }
+hr {size: 1px;}
+.form_title {   
+    display: inline-block;
+    font-weight: bold; 
+    float: right;
+    margin: 0 15px;}
+table {margin: 0 auto; width: 460px; padding-left: 15px;}
+tr {height: 35px;}
+th {
+    vertical-align: top; 
+    line-height: 30px; 
+    padding-left: 10px;
+    font-size: 0.8em; 
+    font-weight: bold;
+}
+td {width: 70px;}
+input[type=text], select, textarea{
+    width: 200px;
+    border: 1px solid #EDD8BB;
+    border-radius: 15px;
+    outline: none;}
+input[type=text], input[type=number] {
+    padding-left: 15px;
+    padding-right: 5px;
+    height: 25px;
+}
+select {padding:5px 5px 5px 15px; width: 222px;}
+.number{
+    display: inline-block;
+    width: 100px;
+    height: 28px;
+    border: 1px solid #EDD8BB;
+    border-radius: 15px ;;
+}
+input[type=number]{
+    width: 60px;
+    border: hidden;
+    border-radius: 15px;
+    text-align: right;
+    outline: none
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {-webkit-appearance: none;}
+.span {color: #555; font-size: 0.7em;}
+.button{
+    text-align: center;
+}
+textarea {padding: 15px;}
+input[type=submit], input[type=reset]{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: hidden;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    background-color: #EDD8BB;
+    border-radius: 15px;
+    outline: none
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+    color: #E2AA87;
+    background-color: #FEF7E1;
+    border-radius: 19px;
+    border: 2px solid #E2AA87;
+    box-shadow: 1px 1px 1px #E2AA87;
+}

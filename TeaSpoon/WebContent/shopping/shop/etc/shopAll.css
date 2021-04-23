@@ -1,0 +1,38 @@
+section{width:1150px; margin:0 auto; padding: 30px; text-align: center; color:#333;}
+ h3{text-align: center;}
+ section a{text-decoration: none; color:#333}
+ 
+ /* 검색 */
+	 section input[type="text"] {width: 300px; height:30px; padding: 0px 20px; border: 1px solid #EDD8BB; border-radius: 15px;}
+	 section input[type="text"]:focus{outline: none; border: 1px solid #E2AA87;
+   		border-radius: 15px; box-shadow: 1px 1px 1px #E2AA87;}
+   	 section input[type="text"]::placeholder { text-align: center}
+   	section input[type="submit"] {display: none;}
+        
+ /* */
+ .content ul{list-style: none;}
+ .content ul li {display: inline-block; border-right: 1px solid #aaa; padding: 0px 10px; font-size: 0.8em}
+ .content ul li:last-child{border:none;}
+ 
+ /* 카테고리 */
+ .selectKind {margin-right: 40px; font-size: 0.8em; text-align: right; vertical-align: middle; color:#777;}
+ .selectKind img{width: 12px;}
+ 
+ /* 상품갯수 */
+ section p{text-align: left; margin-left: 70px;}
+ section p span{color : #88e; font-weight: bold}
+ 
+ /* 상품 */
+ .content{text-align: left; margin-left: 30px; border-top:1px solid #eee; padding:20px;}
+ .article {width:220px; display: inline-block; margin:20px 20px; text-align: center; font-size: small;vertical-align:top; line-height: 25px;}
+ .article img {width:200px; height:200px; z-index: 0; margin:10px; object-fit: contain; border: 1px solid #eee;}
+ .article a {color: #333;}
+ .article > div{margin:20px; text-align: center; line-height: 20px;}
+ .product_price{text-decoration: line-through; color:#999;}
+ .discount_price{color:red;}
+ 
+ /* 페이징박스 */
+ .pageBox, .selectPage{display: inline-block; width: 30px; height:30px; line-height: 30px;}
+ .pageBox a{color:#777;}
+ .selectPage{font-weight: bolder; border-bottom: 2px solid #eee; color:#333;}
+ .pageBox:hover {border-bottom: 1px solid #999; color:#333;}

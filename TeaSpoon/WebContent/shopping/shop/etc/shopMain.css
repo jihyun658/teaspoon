@@ -1,0 +1,71 @@
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+body {
+    font-family: "Nanum Gothic";}
+ .container{ text-align: center;}
+ section{width: 1200px; margin: 0px auto; padding:20px;}
+ a{text-decoration: none}
+ /* 탭메뉴 */
+ h2{margin-top: 100px; margin-bottom: 50px;}
+ input[type="radio"] {display: none; width: 0px; height: 0px;}
+ input[type="radio"] + label {display: inline-block; margin: -2.2px; padding: 10px; width: 175px; 
+ background-color: #f5f5f5; color: #555; font-weight:bold; font-size:smaller; cursor: pointer; border: 1px solid #ddd; border-bottom:1px solid #965831;
+ border-radius: 10px 10px 0px 0px; z-index: 1;}
+ input[type="radio"]:checked + label {background-color:white; color: #965831; border: 1px solid #965831; border-bottom:none; font-size: 1em; z-index: 99999;}
+ .tab {margin: 20px auto;padding:50px 30px; display: none; border-bottom: 1px solid #965831; text-align: right;}
+ .tab a{color : #333; font-size: 1em;}
+ input[id="tab0"]:checked ~ .product1{display: block;}
+ input[id="tab1"]:checked ~ .product2{display: block;}
+ input[id="tab2"]:checked ~ .product3{display: block;}
+ input[id="tab3"]:checked ~ .product4{display: block;}
+ input[id="tab4"]:checked ~ .product5{display: block;}
+ input[id="tab5"]:checked ~ .product6{display: block;}
+ .article {width:200px; display: inline-block; margin:20px 10px; text-align: center; font-size: small;vertical-align:top; line-height: 25px;}
+ .article img {width:180px; height:180px; z-index: 0; margin:10px; object-fit: contain;}
+ 
+ /**/
+ .cartInsert div{width: 40px; height: 40px; border-radius: 29px; background-color: rgba(255,255,255, 0.9); color: black; 
+ background-image: url('../etc/cart.png'); background-size: 22px; background-repeat: no-repeat; background-position: 8px 9px;
+ box-shadow: 1px 1px 3px gray;}
+ .article a .product{position: relative; overflow: hidden; text-align: right;}
+
+ .article a .product .cartInsert {
+position:absolute;
+top:150%;
+left:135px;
+z-index:3;
+color:#000;
+font-size:25px;
+font-weight:900;
+transition:all .35s;
+width:30px;
+}
+.article a .product .d_rice img {width:30px; background: white;}
+ .article > a:hover .cartInsert{top:65%;} 
+ .article a .product::after{
+content:'';
+display:block;
+position:absoulute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background-color:#000;
+z-index:1;
+opacity:0;
+transition:all .35s;
+}
+ .article a:hover .product::after{opacity:1;}
+ /*  */
+ .fruit_image {margin-top: 20px; height: 400px; background-color: rgb(219, 240, 241);}
+ .fruit_image img{height: 400px;}
+ .fruit_image > div{display: inline-block; margin:30px; height:400px; width: 700px; vertical-align:top;}
+ .fruit_image .article { display: inline-block; margin:10px; text-align: center; font-size: small;vertical-align:top;}
+ .fruit_image .article img {width:180px; height:180px; border-radius: 90px; border:3px solid rgb(225, 100, 58)}
+ .fruit_image .article img:hover {width:185px; height: 185px;border-radius: 100px; transform: rotate( -15deg );}
+ .fruit_image a {color:#000}
+ /* teaWear */
+ .teaWear {margin: 0 atuo; width:1200px; text-align: right;}
+ .teaWear a {color: #333;}
+ .teaWear > div{margin:20px; text-align: center; line-height: 20px;}
+ .product_price{text-decoration: line-through; color:#999;}
+ .discount_price{color:red;}

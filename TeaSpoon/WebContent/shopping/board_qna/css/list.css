@@ -1,0 +1,32 @@
+/* list.jsp css 설정 */
+
+#container { width: 800px; margin: 0 auto; font-size: 0.8em;}
+h3 { text-align: center;}
+button { width: 70px; height:25px; border: 1px solid navy; background-color: navy; color: white; 
+font-weight: bold; opacity: 0.7; padding: 2px; cursor: pointer;}
+button:hover { background-color: rgba(100, 100, 200, 0.2); color: navy; font-weight: bold;}
+table { width: 100%; border: 1px solid lightgray; border-collapse: collapse;
+border-top: 2px solid navy; border-bottom: 2px solid navy; border-left: hidden; border-right: hidden;}
+th, td { border: 1px solid lightgray;}
+tr { height: 30px;}
+th { font-weight: normal;}
+.td_subject { padding-left: 10px;}
+.tr_first { border-bottom: 2px solid navy; background-color: rgba(100, 100, 200, 0.1);}
+.tr_content1 { background-color: rgba(200, 200, 200, 0.2);}
+.tr_content2 { background-color: white;}
+
+/* a태그 설정 */
+a { text-decoration: none; color: black;}
+a:hover { color: blue;}
+
+/* 첫번째 테이블 테두리 삭제 */
+.table1 { border: none; margin-bottom: 10px;}
+.table1 td { border: none;}
+
+/* paging */
+#paging { margin-top: 10px; text-align: center;}
+#pbox { display: inline-block; width: 25px; height: 25px; border-radius: 12.5px; 
+margin-left: 2px; margin-right: 2px; font-size: 0.8em; text-align: center; line-height: 25px;}
+.pagebox1 { border: 1px solid navy; background-color: navy; color: white; font-weight: bold; opacity: 0.7;}
+.pagebox2 { border: 1px solid gray; color: gray; }
+

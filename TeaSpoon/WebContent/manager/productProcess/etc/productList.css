@@ -1,0 +1,110 @@
+	.container {
+		margin: 0 auto;
+		width: 1200px;
+	    color: #965831;
+	    text-align:center;
+	    padding: 30px;
+	    background-color: white;
+	    border-radius: 15px;
+	    overflow: auto;
+	    }
+	    
+	 /* 제목 */
+	.form_title {   
+		margin:20px;
+		font-size:2em;
+	    font-weight: bold;
+	}
+	
+	/* 상단 메뉴 */
+    .top a{float: left; margin:0; text-align: left; text-decoration: none; height: 30px; width: 200px; 
+    line-height: 30px; padding-left:5px; color: darkblue;}
+    .categoryList{float:right; margin:0;}
+    .categoryList input{width: 50px}
+    select {
+        padding:5px 5px 5px 15px; 
+        width: 100px;
+        border: 1px solid #EDD8BB;
+        border-radius: 15px;
+        outline: none;}
+        
+     /* 본문 */
+    .content_table {
+		margin: 0 auto;
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0 10px;}
+    .content_table th {background-color: #EDD8BB; font-size: small;}
+    .content_table th:first-child {
+        padding-left: 15px;
+        border-bottom-left-radius : 20px;
+        border-top-left-radius: 20px; 
+        background-color:#EDD8BB;}
+    .content_table th:last-child {
+        padding-right: 15px;
+        border-bottom-right-radius : 20px; 
+        border-top-right-radius: 20px; 
+        background-color: #EDD8BB;
+    }
+    .content_table td { 
+        border-top: 2px solid #EDD8BB; 
+        border-bottom: 2px solid #EDD8BB;
+        border-left: 1px dotted #EDD8BB;
+        }
+    .content_table td img {width : 150px; height: 15200px; object-fit: contain;}
+    .content_table td:first-child {
+        padding-left: 15px;
+        border-bottom-left-radius : 20px; 
+        border-top-left-radius: 20px; 
+        border-left:2px solid #EDD8BB;}
+    .content_table td:last-child {
+        padding-right: 15px;
+        border-bottom-right-radius : 20px; 
+        border-top-right-radius: 20px; 
+        border-right: 2px solid #EDD8BB;}
+    .content_table tr{height: 40px; margin: 20px;}
+    .explain p { margin: 0px; font-size: small}
+    .explain {padding: 10px; text-align: left}
+    span{font-size: small;}
+    .content_table td a {text-decoration: none; height: 30px; color: blue;}
+    
+    /* 상품 등록 버튼 */
+    input[type=button]{
+    	float: right; 
+    	width: 100px;
+	    height: 36px;
+	    border: hidden;
+	    font-size: small;
+	    font-weight: bold;
+	    color: #965831;
+	    background-color: #EDD8BB;
+	    border-radius: 18px;
+	    outline: none
+	}
+	input[type=button]:hover, top a:hover{
+	    color: #E2AA87;
+	    background-color: #FEF7E1;
+	    border-radius: 19px;
+	    border: 2px solid #E2AA87;
+	    cursor: pointer;
+	    font-weight: bold;
+	}
+	
+	/* 페이지 */
+	#paging {margin-left: 130px; margin-top: 10px;}
+	.pageBox, .selectPage {
+		box-sizing:border-box;
+		display: inline-block; 
+		width: 30px; height: 30px; 
+		border: 2px solid #EDD8BB;
+		border-radius: 15px; 
+		background-color: #EDD8BB}
+	.pageBox a {text-decoration: none; line-height: 26px; font-weight: bold; font-size:small; color: #965831;}
+	.selectPage {color:white; line-height: 26px; background-color:  #965831; font-weight: bold; font-size:small; border: 2px solid #965831}
+	.pageBox:hover{ 
+		box-sizing:border-box;
+	    color: #E2AA87;
+	    background-color: #FEF7E1;
+	    border: 2px solid #E2AA87;
+	    cursor: pointer;
+	}

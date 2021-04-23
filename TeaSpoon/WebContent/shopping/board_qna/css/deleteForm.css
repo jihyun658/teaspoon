@@ -1,0 +1,21 @@
+
+#container { width: 250px; margin: 0 auto; font-size: 0.8em;}
+h3 { text-align: center;}
+table { width: 100%; border: 1px solid gray; border-collapse: collapse;
+border-top: 2px navy solid; border-bottom: 2px navy solid; border-left: hidden; border-right:hidden;}
+th, td { border: 1px solid gray;}
+tr { height: 40px;}
+th { font-weight: normal; background-color: rgba(100, 100, 200, 0.15);}
+td { text-align: center; background-color: rgba(100, 100, 200, 0.05);}
+
+#btn { width: 80px; height: 27px; border: none; line-height: 20px; cursor: pointer;
+background-color: rgba(100, 100, 200, 0.9); color: white; padding: 5px;}
+#btn:hover { background-color: rgba(100, 100, 200, 0.3); color: navy; font-weight: bold;}
+
+
+
+
+
+
+
+

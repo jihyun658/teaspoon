@@ -1,0 +1,65 @@
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+.container{
+    padding-bottom: 30px;
+    font-family: "Nanum Gothic";
+    position:absolute;
+    text-align:left;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.menu {
+    width: 230px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+p span {color: teal; font-weight: bold;}
+label {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    text-shadow:1px 1px 1px #EF8E7D;
+    text-align: left;
+    padding: 20px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    background-color: #EDD8BB ;
+}
+label:first-child {border-radius: 10px 10px 0px 0px;}
+label:last-child{border-radius: 0px 0px 10px 10px;}
+label:hover {
+    background-color: #E2AA87;
+    color: #044;
+    cursor: pointer;
+}
+input[type=radio] {display: none;}
+input[type=radio]:checked + .submenu {
+    position: relative; 
+    visibility: visible;
+    max-height: 150px;
+}
+.submenu{
+    position:relative;
+    visibility: collapse;
+    width:100%;
+    max-height: 0;
+}
+.submenu a {
+    padding-left: 30px;
+    line-height: 50px;
+    height: 50px;
+    border-top: 1px solid #EDD8BB;
+    font-weight: bold;
+    font-size: medium;
+    color: #EF8E7D;
+    background-color: #FEF7E1   ;
+}
+.submenu a:hover{
+    background-color: #E2AA87;
+    color: brown;
+}
+a {display: block; text-decoration: none; color: #EF8E7D; width: auto; font-size: large; box-sizing: content-box;}
+label:hover a{color:red}  
+.update {color:brown ; font-size: small;}
+.submenu a:hover .update {color :red}
